@@ -1,0 +1,44 @@
+{
+  "name": "gmall_front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "fix": "eslint src --fix",
+    "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
+    "lint:eslint": "eslint src/**/*.{ts,vue} --cache --fix",
+    "lint:style": "stylelint src/**/*.{css,scss,vue} --cache --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^8.1.2",
+    "@eslint/css": "^2.0.1",
+    "@eslint/js": "^9.39.5",
+    "@eslint/json": "^2.1.1",
+    "@eslint/markdown": "^8.0.3",
+    "@eslint/shell": "^0.1.2",
+    "@types/node": "^24.19.2",
+    "@typescript-eslint/eslint-plugin": "^8.72.2",
+    "@typescript-eslint/parser": "^8.72.2",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "eslint": "^9.39.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.5.7",
+    "eslint-plugin-vue": "^10.12.1",
+    "globals": "^17.14.0",
+    "husky": "^8.0.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.6",
+    "vue-tsc": "^3.3.14"
+  }
+}
