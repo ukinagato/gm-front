@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-const msg = 'ff'
+const msg = "ssssff";
 </script>
 
 <style>
